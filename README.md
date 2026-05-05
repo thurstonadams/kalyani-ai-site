@@ -26,7 +26,7 @@ Open http://localhost:8080
 - `vercel.json` — Vercel config (clean URLs, security headers)
 
 ## Deploy
-GitHub repo: `KAI-LLC-Admin/kalyani-ai-site`
+GitHub repo: `thurstonadams/kalyani-ai-site`
 Vercel team: `kai15`
 Production domain: `kalyani.ai`
 
