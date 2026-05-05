@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Contact | Kalyani Aftermarket Innovations</title>
+<meta name="description" content="Get in touch with KAI — Kalyani Aftermarket Innovations." />
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="/">
+      <img src="assets/logo.svg" alt="KAI" class="brand-mark" />
+      <span class="brand-text">Kalyani Aftermarket Innovations</span>
+    </a>
+    <nav class="primary-nav" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/brands.html">Brands</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <h1>Contact KAI</h1>
+    <p>Distributor inquiries, technical support, and partnership requests — we'd love to hear from you.</p>
+  </div>
+</section>
+
+<section class="pitch" style="background: var(--white); padding-top: 24px;">
+  <div class="container pitch-grid">
+    <div>
+      <h2>Reach the team.</h2>
+    </div>
+    <div>
+      <p><strong>General &amp; partnerships</strong><br /><a href="mailto:thurston@kalyani.ai">thurston@kalyani.ai</a></p>
+      <p><strong>Phone</strong><br /><a href="tel:+19174466929">917-446-6929</a></p>
+      <p><strong>xMotion Axles support</strong><br /><a href="mailto:support@xmotionaxles.com">support@xmotionaxles.com</a></p>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <img src="assets/logo.svg" alt="KAI" class="brand-mark" />
+      <p class="footer-tag">Premium aftermarket products for enhanced vehicle performance.</p>
+      <div class="socials">
+        <a href="https://www.instagram.com/" aria-label="Instagram">IG</a>
+        <a href="https://tiktok.com/" aria-label="TikTok">TT</a>
+        <a href="https://x.com/" aria-label="X">X</a>
+      </div>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p><a href="mailto:thurston@kalyani.ai">thurston@kalyani.ai</a></p>
+      <p><a href="tel:+19174466929">917-446-6929</a></p>
+    </div>
+    <div>
+      <h4>Stay in the loop</h4>
+      <form class="signup" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Thanks!';">
+        <input type="email" placeholder="Enter your email address" required />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+  <div class="container copyright">© <span id="yr"></span> Kalyani Aftermarket Innovations, LLC. All rights reserved.</div>
+</footer>
+
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>

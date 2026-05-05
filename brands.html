@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Brands | Kalyani Aftermarket Innovations</title>
+<meta name="description" content="Premium American aftermarket brands engineered and supplied by KAI. xMotion Axles and emerging product lines." />
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="/">
+      <img src="assets/logo.svg" alt="KAI" class="brand-mark" />
+      <span class="brand-text">Kalyani Aftermarket Innovations</span>
+    </a>
+    <nav class="primary-nav" aria-label="Primary">
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/brands.html">Brands</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <h1>Our Brands</h1>
+    <p>KAI engineers, manufactures, and distributes a growing family of factory-direct aftermarket brands — each backed by our vertically integrated supply chain and AI-powered catalog.</p>
+  </div>
+</section>
+
+<section class="pitch" style="background: var(--white); padding-top: 24px;">
+  <div class="container">
+
+    <a class="brand-card" href="https://www.xmotionaxles.com" target="_blank" rel="noopener">
+      <div class="b-mark">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="32" cy="32" r="28" stroke="currentColor" stroke-width="3"/><circle cx="32" cy="32" r="6" fill="currentColor"/><path d="M32 8v10M32 46v10M8 32h10M46 32h10M14 14l7 7M43 43l7 7M14 50l7-7M43 21l7-7" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+      </div>
+      <div>
+        <h3>xMotion Axles</h3>
+        <p>Premium aftermarket CV axles, wheel hubs, gear sets, and steering. 1,800+ part numbers and 99% catalog coverage. Factory-direct from the KAI engineering and manufacturing pipeline.</p>
+      </div>
+      <span class="b-link">Visit xmotionaxles.com →</span>
+    </a>
+
+    <div class="brand-card" style="opacity:.85">
+      <div class="b-mark">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="10" y="10" width="44" height="44" rx="6" stroke="currentColor" stroke-width="3"/><path d="M22 32h20M32 22v20" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+      </div>
+      <div>
+        <h3>KAI Platform</h3>
+        <p>Internal AI cataloging, reverse-engineering, and benchmarking platform. Powers cross-reference accuracy and time-to-catalog across every KAI brand.</p>
+      </div>
+      <span class="b-link">Internal →</span>
+    </div>
+
+    <div class="brand-card" style="opacity:.6">
+      <div class="b-mark">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M16 48l16-32 16 32H16z" stroke="currentColor" stroke-width="3" stroke-linejoin="round"/></svg>
+      </div>
+      <div>
+        <h3>More Coming Soon</h3>
+        <p>Additional KAI brands and product lines in active engineering. Subscribe below to hear when they launch.</p>
+      </div>
+      <span class="b-link">Stay tuned →</span>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <img src="assets/logo.svg" alt="KAI" class="brand-mark" />
+      <p class="footer-tag">Premium aftermarket products for enhanced vehicle performance.</p>
+      <div class="socials">
+        <a href="https://www.instagram.com/" aria-label="Instagram">IG</a>
+        <a href="https://tiktok.com/" aria-label="TikTok">TT</a>
+        <a href="https://x.com/" aria-label="X">X</a>
+      </div>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p><a href="mailto:thurston@kalyani.ai">thurston@kalyani.ai</a></p>
+      <p><a href="tel:+19174466929">917-446-6929</a></p>
+    </div>
+    <div>
+      <h4>Stay in the loop</h4>
+      <form class="signup" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Thanks!';">
+        <input type="email" placeholder="Enter your email address" required />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+  <div class="container copyright">© <span id="yr"></span> Kalyani Aftermarket Innovations, LLC. All rights reserved.</div>
+</footer>
+
+<script>document.getElementById('yr').textContent = new Date().getFullYear();</script>
+</body>
+</html>
